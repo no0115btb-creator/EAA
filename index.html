@@ -694,6 +694,12 @@ footer {
 .pricing-actions .btn{min-width:220px}
 @media(max-width:760px){.pricing-banner{padding:23px 17px}.pricing-methods,.pricing-cards{grid-template-columns:1fr}.pricing-card{padding:24px 20px}.pricing-actions .btn{width:100%}}
 
+
+/* 3WAY illustrations: compact and responsive */
+.pricing-method {display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;padding:17px 12px 20px}
+.pricing-method .method-illustration {display:block;width:150px;max-width:70%;height:105px;object-fit:contain;margin:0 auto 12px;border-radius:12px}
+.pricing-method strong {font-size:clamp(15px,1.5vw,17px)}
+@media(max-width:760px){.pricing-method .method-illustration{width:135px;height:95px}}
 </style>
 </head>
 <body>
@@ -830,9 +836,9 @@ EAA
       <h3 data-en="✨ 3WAY Premium Aircon Cleaning" data-ko="✨ 3WAY 프리미엄 에어컨 클리닝">✨ 3WAY Premium Aircon Cleaning</h3>
       <p data-en="Three professional cleaning methods for a fresher, cleaner aircon." data-ko="세 가지 전문 세척 방식으로 더욱 깨끗하고 쾌적하게 관리합니다.">Three professional cleaning methods for a fresher, cleaner aircon.</p>
       <div class="pricing-methods">
-        <div class="pricing-method"><span class="method-icon">🧴</span><strong data-en="Chemical Cleaning" data-ko="케미컬 클리닝">Chemical Cleaning</strong><small data-en="Targeted cleaning solution" data-ko="전용 세정제를 활용한 오염 제거">Targeted cleaning solution</small></div>
-        <div class="pricing-method"><span class="method-icon">♨️</span><strong data-en="Steam Cleaning" data-ko="스팀 클리닝">Steam Cleaning</strong><small data-en="Steam-assisted cleaning" data-ko="스팀을 활용한 세척">Steam-assisted cleaning</small></div>
-        <div class="pricing-method"><span class="method-icon">💦</span><strong data-en="High-Pressure Washing" data-ko="고압 세척">High-Pressure Washing</strong><small data-en="Thorough dirt removal" data-ko="내부 먼지와 오염물 세척">Thorough dirt removal</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/chemical-cleaning.webp" alt="Chemical Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Chemical Cleaning" data-ko="케미컬 클리닝">Chemical Cleaning</strong><small data-en="Targeted cleaning solution" data-ko="전용 세정제를 활용한 오염 제거">Targeted cleaning solution</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/steam-cleaning.webp" alt="Steam Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Steam Cleaning" data-ko="스팀 클리닝">Steam Cleaning</strong><small data-en="Steam-assisted cleaning" data-ko="스팀을 활용한 세척">Steam-assisted cleaning</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/high-pressure-washing.webp" alt="High-Pressure Washing illustration" loading="lazy" width="150" height="105"><strong data-en="High-Pressure Washing" data-ko="고압 세척">High-Pressure Washing</strong><small data-en="Thorough dirt removal" data-ko="내부 먼지와 오염물 세척">Thorough dirt removal</small></div>
       </div>
     </div>
     <div class="pricing-cards">
