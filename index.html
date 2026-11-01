@@ -700,6 +700,19 @@ footer {
 .pricing-method .method-illustration {display:block;width:150px;max-width:70%;height:105px;object-fit:contain;margin:0 auto 12px;border-radius:12px}
 .pricing-method strong {font-size:clamp(15px,1.5vw,17px)}
 @media(max-width:760px){.pricing-method .method-illustration{width:135px;height:95px}}
+
+/* EAA 2026 promotional kitchen hood filter event */
+#services .cards{margin-top:0}
+.promo-card{position:relative;border:2px solid #f4c35a;background:linear-gradient(160deg,#fffdf4 0%,#ffffff 65%);box-shadow:0 16px 35px #a876161b}
+.promo-card .price-icon{background:#fff1c5}
+.promo-highlight{border-radius:19px;padding:17px 12px 16px;margin:0 0 16px;background:linear-gradient(130deg,#fff5cf,#fff9e9);border:1px solid #f5d47a;text-align:center}
+.promo-tag{display:inline-block;background:#ffe18b;color:#775000;border-radius:30px;font-size:12px;font-weight:900;letter-spacing:.7px;padding:4px 13px}
+.promo-free{color:#e16a13;font-size:clamp(40px,4vw,53px);font-weight:950;line-height:1.15;margin:10px 0 5px;letter-spacing:1px}
+.promo-caption{color:#74582b;font-size:13px;line-height:1.5;margin:0;font-weight:700}
+.pricing-method{transition:transform .25s,box-shadow .25s}
+.pricing-method:hover{transform:translateY(-4px);box-shadow:0 10px 24px #075a9612}
+.pricing-method .method-illustration{width:132px;max-width:75%;height:88px;object-fit:contain;border-radius:0;margin:0 auto 10px}
+@media(max-width:760px){.pricing-method .method-illustration{width:120px;height:82px}}
 </style>
 </head>
 <body>
@@ -800,11 +813,7 @@ EAA
 <!-- 서비스 -->
 <section class="section" id="services">
 <div class="container">
-<div class="heading reveal">
-<small>OUR SERVICES</small>
-<h2 data-en="Our Aircon Services" data-ko="에어컨 서비스">Our Aircon Services</h2>
-<p data-en="Cleaning, repair and installation in one place." data-ko="청소부터 수리, 설치까지 한 번에">Cleaning, repair and installation in one place.</p>
-</div>
+
 <div class="cards">
 <article class="card reveal">
 <div class="card-icon">🧼</div>
@@ -836,9 +845,9 @@ EAA
       <h3 data-en="✨ 3WAY Premium Aircon Cleaning" data-ko="✨ 3WAY 프리미엄 에어컨 클리닝">✨ 3WAY Premium Aircon Cleaning</h3>
       <p data-en="Three professional cleaning methods for a fresher, cleaner aircon." data-ko="세 가지 전문 세척 방식으로 더욱 깨끗하고 쾌적하게 관리합니다.">Three professional cleaning methods for a fresher, cleaner aircon.</p>
       <div class="pricing-methods">
-        <div class="pricing-method"><img class="method-illustration" src="images/chemical-cleaning.webp" alt="Chemical Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Chemical Cleaning" data-ko="케미컬 클리닝">Chemical Cleaning</strong><small data-en="Targeted cleaning solution" data-ko="전용 세정제를 활용한 오염 제거">Targeted cleaning solution</small></div>
-        <div class="pricing-method"><img class="method-illustration" src="images/steam-cleaning.webp" alt="Steam Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Steam Cleaning" data-ko="스팀 클리닝">Steam Cleaning</strong><small data-en="Steam-assisted cleaning" data-ko="스팀을 활용한 세척">Steam-assisted cleaning</small></div>
-        <div class="pricing-method"><img class="method-illustration" src="images/high-pressure-washing.webp" alt="High-Pressure Washing illustration" loading="lazy" width="150" height="105"><strong data-en="High-Pressure Washing" data-ko="고압 세척">High-Pressure Washing</strong><small data-en="Thorough dirt removal" data-ko="내부 먼지와 오염물 세척">Thorough dirt removal</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/chemical-cleaning.svg" alt="Chemical Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Chemical Cleaning" data-ko="케미컬 클리닝">Chemical Cleaning</strong><small data-en="Targeted cleaning solution" data-ko="전용 세정제를 활용한 오염 제거">Targeted cleaning solution</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/steam-cleaning.svg" alt="Steam Cleaning illustration" loading="lazy" width="150" height="105"><strong data-en="Steam Cleaning" data-ko="스팀 클리닝">Steam Cleaning</strong><small data-en="Steam-assisted cleaning" data-ko="스팀을 활용한 세척">Steam-assisted cleaning</small></div>
+        <div class="pricing-method"><img class="method-illustration" src="images/high-pressure-washing.svg" alt="High-Pressure Washing illustration" loading="lazy" width="150" height="105"><strong data-en="High-Pressure Washing" data-ko="고압 세척">High-Pressure Washing</strong><small data-en="Thorough dirt removal" data-ko="내부 먼지와 오염물 세척">Thorough dirt removal</small></div>
       </div>
     </div>
     <div class="pricing-cards">
@@ -847,14 +856,14 @@ EAA
         <h3 data-en="Wall-Mounted Aircon Cleaning (1HP)" data-ko="벽걸이 에어컨 청소 (1HP)">Wall-Mounted Aircon Cleaning (1HP)</h3>
         <p class="price-sub" data-en="Small wall-mounted air conditioner" data-ko="소형 벽걸이 에어컨">Small wall-mounted air conditioner</p>
         <p class="price-description" data-en="Deep cleaning to remove built-up dust and dirt for a fresher indoor environment." data-ko="에어컨 내부에 쌓인 먼지와 오염물을 세척하여 쾌적한 실내 환경을 돕습니다.">Deep cleaning to remove built-up dust and dirt for a fresher indoor environment.</p>
-        <div class="price-bottom"><p class="price-amount">RM 110 <small data-en="/ unit" data-ko="/ 1대">/ unit</small></p><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSd4XF6P-2wxcSoSW7uw2ypnwndOMsVOJXGzRFuXWsl_r59u5Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-en="Request a Booking →" data-ko="청소 신청하기 →">Request a Booking →</a></div>
+        <div class="price-bottom"><p class="price-amount">RM 100 <small data-en="/ unit" data-ko="/ 1대">/ unit</small></p><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSd4XF6P-2wxcSoSW7uw2ypnwndOMsVOJXGzRFuXWsl_r59u5Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-en="Request a Booking →" data-ko="청소 신청하기 →">Request a Booking →</a></div>
       </article>
-      <article class="pricing-card reveal">
+      <article class="pricing-card promo-card reveal">
         <div class="price-icon">🧽</div>
         <h3 data-en="Kitchen Hood Filter Cleaning" data-ko="주방 후드 필터 청소">Kitchen Hood Filter Cleaning</h3>
         <p class="price-sub" data-en="Kitchen exhaust hood filter" data-ko="주방 배기 후드 필터">Kitchen exhaust hood filter</p>
         <p class="price-description" data-en="Cleaning built-up grease and dust from your kitchen hood filter." data-ko="주방 후드 필터에 쌓인 기름때와 먼지를 깨끗하게 세척합니다.">Cleaning built-up grease and dust from your kitchen hood filter.</p>
-        <div class="price-bottom"><p class="price-amount">RM 50 <small data-en="/ service" data-ko="/ 서비스">/ service</small></p><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSd4XF6P-2wxcSoSW7uw2ypnwndOMsVOJXGzRFuXWsl_r59u5Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-en="Request a Booking →" data-ko="청소 신청하기 →">Request a Booking →</a></div>
+        <div class="price-bottom"><div class="promo-highlight"><span class="promo-tag" data-en="🎉 LIMITED-TIME EVENT" data-ko="🎉 이벤트 기간 한정">🎉 LIMITED-TIME EVENT</span><p class="promo-free" data-en="FREE" data-ko="무료">FREE</p><p class="promo-caption" data-en="Kitchen hood filter cleaning is free during the promotional period." data-ko="이벤트 기간 동안 주방 후드 필터 청소 무료">Kitchen hood filter cleaning is free during the promotional period.</p></div><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSd4XF6P-2wxcSoSW7uw2ypnwndOMsVOJXGzRFuXWsl_r59u5Q/viewform?usp=header" target="_blank" rel="noopener noreferrer" data-en="Request a Booking →" data-ko="청소 신청하기 →">Request a Booking →</a></div>
       </article>
       <article class="pricing-card reveal">
         <div class="price-icon">🔧</div>
